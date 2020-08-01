@@ -1,6 +1,9 @@
 
 //Upon clicking submit button, a request is sent to the backend where the string is cut, and returned as a new string
 document.getElementById("submit").addEventListener("click", function(){
+    //empty response-phrase tag
+    //document.getElementById("response-phrase").innerHTML = ""
+
     var input = document.getElementById("string-to-cut").value;
     //POST method
     var data = {

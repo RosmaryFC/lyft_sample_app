@@ -5,16 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>lyft sample app</title>
         <script src="app.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Lyft Sample App</h1>
-        <div>
-            <label for="string-to-cut"> String to cut: </label>
-            <input id="string-to-cut" type="text"/>
-            <button id="submit">Submit</button>
-        </div>
-        <div>
-            <p>Response: <span id="return-string"></span></p>
-        </div>
+        <section>
+            <h1>Lyft Sample App</h1>
+            <p>Returns a string containg every third letter from the original string</p>
+            <div>
+                <label for="string-to-cut"> String to cut: </label>
+                <input id="string-to-cut" type="text"/>
+                <button id="submit">Submit</button>
+            </div>
+            <div>
+                <p id="response-phrase">Return string: <span id="return-string"></span></p>
+            </div>
+        </section>
     </body>
 </html>

@@ -39,5 +39,6 @@ Once the repo is cloned and Node is installed
 
  ### Option 2
  You can also open index.html, insert any string you would like, and press submit.
+![web page image](webpageimage.png)
 
  
