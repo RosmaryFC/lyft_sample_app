@@ -29,7 +29,6 @@ const corsOptions = {
 NODE_ENV === "development" ? app.use(cors()) : app.use(cors(corsOptions));
 app.use(express.json()); 
 app.use(morgan("dev")); 
-//app.use(express.static("public"));
 
 
 // ROUTES AND ROUTERS

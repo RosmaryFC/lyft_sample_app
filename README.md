@@ -22,9 +22,9 @@ Once the repo is cloned and Node is installed
 
 ## Testing
 
- To see the expected behavior, you can run this command on your terminal:
+ To see the expected behavior, you can run this command on your terminal once you have the server running:
  ```
-  curl -X POST http://localhost:3000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
+  curl -X POST http://localhost:2020/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
  ```
  Expected output:
 
@@ -33,3 +33,5 @@ Once the repo is cloned and Node is installed
  ```
 
  You can alternitavely substitute the string in "string_to_cut" any string you would like!
+
+ 

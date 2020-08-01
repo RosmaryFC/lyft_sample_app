@@ -12,7 +12,6 @@ router.post('/test', (req,res) => {
     try {
         let cutPhrase ='';
         let phrase = req.body.string_to_cut;
-        //TODO: check edge case if phrase.length is less less than 2
         if(phrase === undefined) {
             throw new Error("'string_to_cut' is undefined")
         }        
