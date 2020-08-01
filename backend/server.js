@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const cors = require('cors');
-const testRouter = require('./routes/test');
+const router = require('./routes/test');
 
 
 //GLOBAL VARIABLES
@@ -33,7 +33,7 @@ app.use(morgan("dev"));
 
 
 // ROUTES AND ROUTERS
-app.use('/', testRouter);
+app.use('/', router);
 
 
 // LISTENER
