@@ -14,7 +14,9 @@ Make sure you have Node installed.
 Once the repo is cloned and Node is installed
   * In terminal, go to your backend folder
   * run the command: ```npm install```
+    * this will install all the necessary dependencies
   * run the command: ```npm run start```
+    * This will run your server on port 2020 
 
   Enjoy the app! 
 
@@ -33,5 +35,9 @@ Once the repo is cloned and Node is installed
  ```
 
  You can alternitavely substitute the string in "string_to_cut" any string you would like!
+
+
+ ### Option 2
+ You can also open index.html, insert any string you would like, and press submit.
 
  
